@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRed"
+    tools:context=".UsersListActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ac_users_list_recyclerView"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="692dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    
+    <Button
+        android:id="@+id/ac_users_list_addUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="KULLANICI EKLE"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_marginTop="690dp"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

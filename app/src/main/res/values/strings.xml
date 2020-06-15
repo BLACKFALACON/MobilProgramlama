@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Atlanta Falacon</string>
+    <string name="yazi">ATLANTA FALACON</string>
+    <string name="email">E-MAİL</string>
+    <string name="password">ŞİFRE</string>
+    <string name="confPassword">Şifrenizi Onaylayınız:</string>
+    <string name="kayitOl">KAYIT OL</string>
+
+    <string name="girisYapIntentText">GİRİŞ YAP</string>
+
+</resources>

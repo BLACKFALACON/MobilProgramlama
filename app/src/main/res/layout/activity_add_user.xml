@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    tools:context=".AddUserActivity">
+
+    <ImageView
+        android:id="@+id/ac_splash_img"
+        android:layout_width="212dp"
+        android:layout_height="188dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/i"
+        tools:srcCompat="@drawable/i" />
+
+    <TextView
+        android:id="@+id/ac_add_user_baslik"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:text="KULLANICI EKLE"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ac_add_user_firstName"
+        android:layout_width="330dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="#ffffff"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ac_add_user_lastName"
+        android:layout_width="330dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="#fff"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ac_add_user_btnOlustur"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ac_add_user_lastName"
+        android:layout_alignRight="@+id/ac_add_user_lastName"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/colorRed"
+        android:textColor="@color/white"
+        android:text="EKLE" />
+
+    <Button
+        android:id="@+id/ac_add_user_btnIptal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ac_add_user_lastName"
+        android:layout_alignLeft="@+id/ac_add_user_lastName"
+        android:layout_alignTop="@+id/ac_add_user_btnOlustur"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_toStartOf="@+id/ac_add_user_btnOlustur"
+        android:layout_toLeftOf="@+id/ac_add_user_btnOlustur"
+        android:background="@color/colorRed"
+        android:textColor="@color/white"
+        android:text="İPTAL" />
+
+</RelativeLayout>

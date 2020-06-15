@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    tools:context=".UserDetailActivity">
+
+    <ImageView
+        android:id="@+id/ac_user_detail_image"
+        android:layout_width="200dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@drawable/i" />
+
+    <EditText
+        android:id="@+id/ac_user_detail_name"
+        android:layout_width="330dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="#ffffff"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ac_user_detail_lastName"
+        android:layout_width="330dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="#ffffff"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>
